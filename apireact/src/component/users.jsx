@@ -13,7 +13,7 @@ const Users = () => {
   useEffect(() => {
     readUser();
   }, []);
-//handle change for input
+//handle change for all input
   const handleChange = (e) => {
     const { name, value, type, checked, files } = e.target;
 
