@@ -13,7 +13,7 @@ const Users = () => {
   useEffect(() => {
     readUser();
   }, []);
-//handle change 
+//handle change for
   const handleChange = (e) => {
     const { name, value, type, checked, files } = e.target;
 
